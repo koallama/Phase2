@@ -1,0 +1,27 @@
+<ion-content class="login">
+    <div class="container">
+
+        <div class="center-form panel">
+            <div class="panel-body">
+                <h4 class="text-center"><i class="ion-log-in"></i> Log in</h4>
+                <div class="list">
+                    <label class="item item-input">
+                        <span class="input-label">ID</span>
+                        <input type="text" ng-model="user.name">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label">Password</span>
+                        <input type="password" ng-model="user.password">
+                    </label>
+                </div>
+                <button class="button button-block button-positive" ng-click="login()">
+                    Login
+                </button>
+                <button class="button button-block button-positive" ng-click="register()">
+                    Register
+                </button>
+
+                </div>
+            </div>
+        </div>
+</ion-content>
